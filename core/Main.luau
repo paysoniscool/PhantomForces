@@ -5,7 +5,7 @@ end
 getgenv().ns__PhantomPlus__Executed = true
 pcall(clearteleportqueue or clear_teleport_queue or clearqueueonteleport)
 
-local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/430L/PhantomPlus/refs/heads/main/core/Module.luau"))()
+local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/paysoniscool/PhantomForces/refs/heads/main/core/Module.luau"))()
 
 local clonerefFunction = cloneref or clone_ref or clonereference or clone_reference
 local ns__cloneref = function(Object)
@@ -146,7 +146,6 @@ local Aiming = {
 	RageBot_Prediction = true
 }
 
--- Aimkey input tracking (callback-driven, avoids GetState() in render loop)
 local AimkeyBoundCode = nil
 local AimkeyIsMB2 = false
 local IsAimkeyDown = false
@@ -1908,8 +1907,8 @@ function ESPModule:Clear(Player)
 	end
 end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/430L/PhantomPlus/refs/heads/main/core/Library.luau"))()
-local Window = Library:CreateWindow({Title = "PhantomWare | dsc.gg/goonchamber" .. (Module.ExecutorName and (" | " .. Module.ExecutorName) or ""), TabPadding = 8, MenuFadeTime = 0.2}, 1)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/paysoniscool/PhantomForces/refs/heads/main/core/Library.luau"))()
+local Window = Library:CreateWindow({Title = "paysonism.wtf | dsc.gg/goonchamber" .. (Module.ExecutorName and (" | " .. Module.ExecutorName) or ""), TabPadding = 8, MenuFadeTime = 0.2}, 1)
 local Toggles = Library.Toggles
 local Options = Library.Options
 
