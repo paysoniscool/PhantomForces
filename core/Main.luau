@@ -1909,7 +1909,7 @@ function ESPModule:Clear(Player)
 end
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/430L/PhantomPlus/refs/heads/main/core/Library.luau"))()
-local Window = Library:CreateWindow({Title = "PhantomWare | discord.gg/DwRT2nH93D" .. (Module.ExecutorName and (" | " .. Module.ExecutorName) or ""), TabPadding = 8, MenuFadeTime = 0.2}, 1)
+local Window = Library:CreateWindow({Title = "PhantomWare | dsc.gg/goonchamber" .. (Module.ExecutorName and (" | " .. Module.ExecutorName) or ""), TabPadding = 8, MenuFadeTime = 0.2}, 1)
 local Toggles = Library.Toggles
 local Options = Library.Options
 
